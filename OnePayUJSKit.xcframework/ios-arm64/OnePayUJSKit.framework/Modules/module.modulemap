@@ -1,0 +1,11 @@
+framework module OnePayUJSKit {
+  umbrella header "OnePayUJSKit.h"
+  export *
+
+  module * { export * }
+}
+
+module OnePayUJSKit.Swift {
+  header "OnePayUJSKit-Swift.h"
+  requires objc
+}

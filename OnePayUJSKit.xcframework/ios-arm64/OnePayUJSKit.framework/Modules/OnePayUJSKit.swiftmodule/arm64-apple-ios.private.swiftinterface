@@ -1,0 +1,79 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)
+// swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name OnePayUJSKit
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import Foundation
+@_exported import OnePayUJSKit
+import PayUCrashReporter
+import PayUNetworkReachability
+import Swift
+import UIKit
+import WebKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public typealias OnePayUJSHashCompletion = (_ hashDict: [Swift.String : Swift.String]) -> Swift.Void
+@objc public protocol OnePayUJSSDKDelegate : ObjectiveC.NSObjectProtocol {
+  @objc func onCancel()
+  @objc func onError(code: Swift.Int, message: Swift.String)
+  @objc func generateHash(for param: [Swift.String : Swift.String], onCompletion: @escaping OnePayUJSKit.OnePayUJSHashCompletion)
+}
+@objc public class OnePayUJSParams : ObjectiveC.NSObject {
+  @objc public var merchantKey: Swift.String
+  @objc public var referenceId: Swift.String
+  @objc public var mobileNumber: Swift.String
+  @objc public var walletIdentifier: Swift.String?
+  @objc public var redirectUrl: Swift.String?
+  @objc public var environment: OnePayUJSKit.OnePayUJSEnvironment
+  @objc public var walletUrn: Swift.String?
+  @objc public var hashes: OnePayUJSKit.OnePayUJSHashes?
+  @objc public var additionalParam: [Swift.String : Any]
+  @objc public init(merchantKey: Swift.String, referenceId: Swift.String, environment: OnePayUJSKit.OnePayUJSEnvironment, mobileNumber: Swift.String, walletUrn: Swift.String?, walletIdentifier: Swift.String? = nil)
+  @objc deinit
+}
+@objc public enum OnePayUJSEnvironment : Swift.Int {
+  case production = 0
+  case test
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@_inheritsConvenienceInitializers @objc public class OnePayUJSHashes : ObjectiveC.NSObject {
+  @objc public var cards: Swift.String?
+  @objc override dynamic public init()
+  @objc deinit
+}
+extension UIKit.UIDevice {
+  @_Concurrency.MainActor(unsafe) public static let modelName: Swift.String
+  @_Concurrency.MainActor(unsafe) public static let signalStrength: Swift.Int?
+  @_Concurrency.MainActor(unsafe) public var totalDiskSpaceInGB: Swift.String {
+    get
+  }
+  @_Concurrency.MainActor(unsafe) public var freeDiskSpaceInGB: Swift.String {
+    get
+  }
+  @_Concurrency.MainActor(unsafe) public var usedDiskSpaceInGB: Swift.String {
+    get
+  }
+  @_Concurrency.MainActor(unsafe) public var totalDiskSpaceInBytes: Swift.Int64 {
+    get
+  }
+  @_Concurrency.MainActor(unsafe) public var freeDiskSpaceInBytes: Swift.Int64 {
+    get
+  }
+  @_Concurrency.MainActor(unsafe) public var usedDiskSpaceInBytes: Swift.Int64 {
+    get
+  }
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc public class OnePayUJSSDK : ObjectiveC.NSObject {
+  @objc public static func start()
+  @objc public func reset()
+  @objc public class func showCards(parentVC: UIKit.UIViewController, params: OnePayUJSKit.OnePayUJSParams, delegate: any OnePayUJSKit.OnePayUJSSDKDelegate)
+  @objc public class func showCards(parentVC: UIKit.UIViewController, paramDict: [Swift.String : Any], delegate: any OnePayUJSKit.OnePayUJSSDKDelegate)
+  @objc deinit
+}
+extension OnePayUJSKit.OnePayUJSEnvironment : Swift.Equatable {}
+extension OnePayUJSKit.OnePayUJSEnvironment : Swift.Hashable {}
+extension OnePayUJSKit.OnePayUJSEnvironment : Swift.RawRepresentable {}
