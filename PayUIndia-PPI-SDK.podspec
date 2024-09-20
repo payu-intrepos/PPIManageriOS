@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name                = "PayUIndia-PPI-SDK"
-  s.version             = "1.0.0"
+  s.version             = "1.0.1"
   s.license             = "MIT"
   s.homepage            = "https://github.com/payu-intrepos/PPIManageriOS"
   s.author              = { "PayU" => "contact@payu.in"  }

@@ -3255,217 +3255,217 @@
     {
       "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Utils\/OnePayUJConstants.swift",
       "kind": "StringLiteral",
-      "offset": 497,
-      "length": 14,
-      "value": "\"environement\""
+      "offset": 496,
+      "length": 13,
+      "value": "\"environment\""
     },
     {
       "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Utils\/OnePayUJConstants.swift",
       "kind": "StringLiteral",
-      "offset": 546,
+      "offset": 544,
       "length": 18,
       "value": "\"walletIdentifier\""
     },
     {
       "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Utils\/OnePayUJConstants.swift",
       "kind": "StringLiteral",
-      "offset": 592,
+      "offset": 590,
       "length": 11,
       "value": "\"walletUrn\""
     },
     {
       "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Utils\/OnePayUJConstants.swift",
       "kind": "StringLiteral",
-      "offset": 630,
+      "offset": 628,
       "length": 10,
       "value": "\"hashName\""
     },
     {
       "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Utils\/OnePayUJConstants.swift",
       "kind": "StringLiteral",
-      "offset": 669,
+      "offset": 667,
       "length": 12,
       "value": "\"hashString\""
     },
     {
       "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Utils\/OnePayUJConstants.swift",
       "kind": "StringLiteral",
-      "offset": 704,
+      "offset": 702,
       "length": 6,
       "value": "\"hash\""
     },
     {
       "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Utils\/OnePayUJConstants.swift",
       "kind": "StringLiteral",
-      "offset": 744,
+      "offset": 742,
       "length": 20,
       "value": "\"OnePayUJSSDKCancel\""
     },
     {
       "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Utils\/OnePayUJConstants.swift",
       "kind": "StringLiteral",
-      "offset": 803,
+      "offset": 801,
       "length": 22,
       "value": "\"createLocalStatusBar\""
     },
     {
       "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Utils\/OnePayUJConstants.swift",
       "kind": "StringLiteral",
-      "offset": 853,
+      "offset": 851,
       "length": 11,
       "value": "\"statusBar\""
     },
     {
       "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Utils\/OnePayUJConstants.swift",
       "kind": "StringLiteral",
-      "offset": 894,
+      "offset": 892,
       "length": 13,
       "value": "\"currentData\""
     },
     {
       "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Utils\/OnePayUJConstants.swift",
       "kind": "StringLiteral",
-      "offset": 939,
+      "offset": 937,
       "length": 15,
       "value": "\"cellularEntry\""
     },
     {
       "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Utils\/OnePayUJConstants.swift",
       "kind": "StringLiteral",
-      "offset": 985,
+      "offset": 983,
       "length": 14,
       "value": "\"displayValue\""
     },
     {
       "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Utils\/OnePayUJConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1056,
+      "offset": 1054,
       "length": 27,
       "value": "\"EEE, dd MMM yyyy HH:mm:ss\""
     },
     {
       "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Utils\/OnePayUJConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1114,
+      "offset": 1112,
       "length": 14,
       "value": "\"OnePayUJSSDK\""
     },
     {
       "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Utils\/OnePayUJConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1161,
+      "offset": 1159,
       "length": 28,
       "value": "\"CFBundleShortVersionString\""
     },
     {
       "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Utils\/OnePayUJConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1218,
+      "offset": 1216,
       "length": 27,
       "value": "\"https:\/\/www.google.co.in\/\""
     },
     {
       "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Utils\/OnePayUJConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1267,
+      "offset": 1265,
       "length": 5,
       "value": "\"GMT\""
     },
     {
       "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Utils\/OnePayUJConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1296,
+      "offset": 1294,
       "length": 7,
       "value": "\"en_US\""
     },
     {
       "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Utils\/OnePayUJConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1334,
+      "offset": 1332,
       "length": 14,
       "value": "\"OnePayUJSKit\""
     },
     {
       "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Utils\/OnePayUJConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1378,
+      "offset": 1376,
       "length": 58,
       "value": "\"\", algorithm=\"sha512\", headers=\"date\", signature=\"\""
     },
     {
       "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Utils\/OnePayUJConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1468,
+      "offset": 1466,
       "length": 18,
       "value": "\"hmac username=\"\""
     },
     {
       "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Utils\/OnePayUJConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1509,
+      "offset": 1507,
       "length": 6,
       "value": "\"data\""
     },
     {
       "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Utils\/OnePayUJConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1547,
+      "offset": 1545,
       "length": 15,
       "value": "\"Authorization\""
     },
     {
       "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Utils\/OnePayUJConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1585,
+      "offset": 1583,
       "length": 6,
       "value": "\"Date\""
     },
     {
       "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Utils\/OnePayUJConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1612,
+      "offset": 1610,
       "length": 4,
       "value": "\"Ok\""
     },
     {
       "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Utils\/OnePayUJConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1669,
+      "offset": 1667,
       "length": 14,
       "value": "\"Content-Type\""
     },
     {
       "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Utils\/OnePayUJConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1727,
+      "offset": 1725,
       "length": 35,
       "value": "\"application\/x-www-form-urlencoded\""
     },
     {
       "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Utils\/OnePayUJConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1806,
+      "offset": 1804,
       "length": 5,
       "value": "\"GET\""
     },
     {
       "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Utils\/OnePayUJConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1834,
+      "offset": 1832,
       "length": 6,
       "value": "\"POST\""
     },
     {
       "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Utils\/OnePayUJConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1891,
+      "offset": 1889,
       "length": 53,
       "value": "\"https:\/\/api.payu.in\/loyalty-points\/olw\/user\/card\/v1\""
     },
     {
       "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Utils\/OnePayUJConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1977,
+      "offset": 1975,
       "length": 57,
       "value": "\"https:\/\/apitest.payu.in\/loyalty-points\/olw\/user\/card\/v1\""
     },

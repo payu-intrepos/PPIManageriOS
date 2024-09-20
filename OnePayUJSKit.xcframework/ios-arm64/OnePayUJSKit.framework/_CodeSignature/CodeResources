@@ -14,11 +14,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		HTDYJ3+3kY5cAgYLhYcs5QjKQa0=
+		SWPgDRXdou3lD5iM/v1RtGVMNkw=
 		</data>
 		<key>Modules/OnePayUJSKit.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		umAAVtJkmmcPQESwKgFOBYyGmx4=
+		tBhDckqo8Ue+7MHPHSxNQ1ax1P4=
 		</data>
 		<key>Modules/OnePayUJSKit.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
@@ -34,7 +34,7 @@
 		</data>
 		<key>Modules/OnePayUJSKit.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		6NL9AEfqJKCxxacwrWYOAYDH8mw=
+		0VsM2vOEHcPXgY2G+M5vCGylnQI=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -61,7 +61,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			gq91LybpF/MtBH0DzGId7HQcGk4HXIaPL4KSJ9YX6pQ=
+			8Q+gJHE74rm5JrDPTUqSHLMTxDEkfLXSftWHkJekhxk=
 			</data>
 		</dict>
 		<key>Modules/OnePayUJSKit.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
@@ -89,7 +89,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			jPBhu1r+6bjP1pJMMgDbCzUQAAS0uxx3kJAQIdDIA+Q=
+			8TbEP+rQ+LB+vzTKHpg5JJ8kSmPt99yIcuMxBPCfwh0=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
