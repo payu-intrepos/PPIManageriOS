@@ -1,7 +1,10 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
-// swift-module-flags: -target arm64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name OnePayUJSKit
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface
+// swift-compiler-version: Apple Swift version 6.2 effective-5.10 (swiftlang-6.2.0.19.9 clang-1700.3.19.1)
+// swift-module-flags: -target arm64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name OnePayUJSKit
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2
+import AVFoundation
+import CommonCrypto
+import CoreLocation
 import Foundation
 @_exported import OnePayUJSKit
 import PayUAnalyticsKit
@@ -18,6 +21,7 @@ public typealias OnePayUJSHashCompletion = (_ hashDict: [Swift.String : Swift.St
   @objc func onCancel()
   @objc func onError(code: Swift.Int, message: Swift.String)
   @objc func generateHash(for param: [Swift.String : Swift.String], onCompletion: @escaping OnePayUJSKit.OnePayUJSHashCompletion)
+  @objc optional func onKYCCompletion(status: Swift.String, message: Swift.String, docId: Swift.String)
 }
 @objc public class OnePayUJSParams : ObjectiveC.NSObject {
   @objc public var merchantKey: Swift.String
@@ -29,13 +33,17 @@ public typealias OnePayUJSHashCompletion = (_ hashDict: [Swift.String : Swift.St
   @objc public var walletUrn: Swift.String?
   @objc public var hashes: OnePayUJSKit.OnePayUJSHashes?
   @objc public var additionalParam: [Swift.String : Any]
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc public init(merchantKey: Swift.String, referenceId: Swift.String, environment: OnePayUJSKit.OnePayUJSEnvironment, mobileNumber: Swift.String, walletUrn: Swift.String?, walletIdentifier: Swift.String? = nil)
+  #endif
   @objc deinit
 }
 @objc public enum OnePayUJSEnvironment : Swift.Int {
   case production = 0
   case test
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.Int)
+  #endif
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
     get
@@ -44,6 +52,20 @@ public typealias OnePayUJSHashCompletion = (_ hashDict: [Swift.String : Swift.St
 @_inheritsConvenienceInitializers @objc public class OnePayUJSHashes : ObjectiveC.NSObject {
   @objc public var cards: Swift.String?
   @objc override dynamic public init()
+  @objc deinit
+}
+@objc public class OnePayUJSKYCParams : ObjectiveC.NSObject {
+  @objc public var clientTxnId: Swift.String
+  @objc public var customerMobile: Swift.String
+  @objc public var consent: Swift.String
+  @objc public var clientId: Swift.String
+  @objc public var entityId: Swift.String
+  @objc public var bankId: Swift.String
+  @objc public var modeId: Swift.String
+  @objc public var redirectionUrl: Swift.String
+  @objc public var secureCode: Swift.String
+  @objc public var environment: OnePayUJSKit.OnePayUJSEnvironment
+  @objc public init(clientTxnId: Swift.String, customerMobile: Swift.String, consent: Swift.String, clientId: Swift.String, entityId: Swift.String, bankId: Swift.String, modeId: Swift.String, redirectionUrl: Swift.String, secureCode: Swift.String, environment: OnePayUJSKit.OnePayUJSEnvironment)
   @objc deinit
 }
 extension UIKit.UIDevice {
@@ -73,6 +95,7 @@ extension UIKit.UIDevice {
   @objc public func reset()
   @objc public class func showCards(parentVC: UIKit.UIViewController, params: OnePayUJSKit.OnePayUJSParams, delegate: any OnePayUJSKit.OnePayUJSSDKDelegate)
   @objc public class func showCards(parentVC: UIKit.UIViewController, paramDict: [Swift.String : Any], delegate: any OnePayUJSKit.OnePayUJSSDKDelegate)
+  @objc public class func initiateKYC(parentVC: UIKit.UIViewController, params: OnePayUJSKit.OnePayUJSKYCParams, delegate: any OnePayUJSKit.OnePayUJSSDKDelegate)
   @objc deinit
 }
 extension OnePayUJSKit.OnePayUJSEnvironment : Swift.Equatable {}

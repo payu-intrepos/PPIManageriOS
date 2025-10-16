@@ -156,6 +156,50 @@
             ],
             "reqNewWitnessTableEntry": true,
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onKYCCompletion",
+            "printedName": "onKYCCompletion(status:message:docId:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@OnePayUJSKit@objc(pl)OnePayUJSSDKDelegate(im)onKYCCompletionWithStatus:message:docId:",
+            "mangledName": "$s12OnePayUJSKit0aB14UJSSDKDelegateP15onKYCCompletion6status7message5docIdySS_S2StF",
+            "moduleName": "OnePayUJSKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : OnePayUJSKit.OnePayUJSSDKDelegate>",
+            "sugared_genericSig": "<Self where Self : OnePayUJSKit.OnePayUJSSDKDelegate>",
+            "protocolReq": true,
+            "objc_name": "onKYCCompletionWithStatus:message:docId:",
+            "declAttributes": [
+              "Optional",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Protocol",
@@ -1827,6 +1871,1119 @@
         ]
       },
       {
+        "kind": "TypeDecl",
+        "name": "OnePayUJSKYCParams",
+        "printedName": "OnePayUJSKYCParams",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "clientTxnId",
+            "printedName": "clientTxnId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@OnePayUJSKit@objc(cs)OnePayUJSKYCParams(py)clientTxnId",
+            "mangledName": "$s12OnePayUJSKit0aB12UJSKYCParamsC11clientTxnIdSSvp",
+            "moduleName": "OnePayUJSKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@OnePayUJSKit@objc(cs)OnePayUJSKYCParams(im)clientTxnId",
+                "mangledName": "$s12OnePayUJSKit0aB12UJSKYCParamsC11clientTxnIdSSvg",
+                "moduleName": "OnePayUJSKit",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@OnePayUJSKit@objc(cs)OnePayUJSKYCParams(im)setClientTxnId:",
+                "mangledName": "$s12OnePayUJSKit0aB12UJSKYCParamsC11clientTxnIdSSvs",
+                "moduleName": "OnePayUJSKit",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12OnePayUJSKit0aB12UJSKYCParamsC11clientTxnIdSSvM",
+                "mangledName": "$s12OnePayUJSKit0aB12UJSKYCParamsC11clientTxnIdSSvM",
+                "moduleName": "OnePayUJSKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "customerMobile",
+            "printedName": "customerMobile",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@OnePayUJSKit@objc(cs)OnePayUJSKYCParams(py)customerMobile",
+            "mangledName": "$s12OnePayUJSKit0aB12UJSKYCParamsC14customerMobileSSvp",
+            "moduleName": "OnePayUJSKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@OnePayUJSKit@objc(cs)OnePayUJSKYCParams(im)customerMobile",
+                "mangledName": "$s12OnePayUJSKit0aB12UJSKYCParamsC14customerMobileSSvg",
+                "moduleName": "OnePayUJSKit",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@OnePayUJSKit@objc(cs)OnePayUJSKYCParams(im)setCustomerMobile:",
+                "mangledName": "$s12OnePayUJSKit0aB12UJSKYCParamsC14customerMobileSSvs",
+                "moduleName": "OnePayUJSKit",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12OnePayUJSKit0aB12UJSKYCParamsC14customerMobileSSvM",
+                "mangledName": "$s12OnePayUJSKit0aB12UJSKYCParamsC14customerMobileSSvM",
+                "moduleName": "OnePayUJSKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "consent",
+            "printedName": "consent",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@OnePayUJSKit@objc(cs)OnePayUJSKYCParams(py)consent",
+            "mangledName": "$s12OnePayUJSKit0aB12UJSKYCParamsC7consentSSvp",
+            "moduleName": "OnePayUJSKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@OnePayUJSKit@objc(cs)OnePayUJSKYCParams(im)consent",
+                "mangledName": "$s12OnePayUJSKit0aB12UJSKYCParamsC7consentSSvg",
+                "moduleName": "OnePayUJSKit",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@OnePayUJSKit@objc(cs)OnePayUJSKYCParams(im)setConsent:",
+                "mangledName": "$s12OnePayUJSKit0aB12UJSKYCParamsC7consentSSvs",
+                "moduleName": "OnePayUJSKit",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12OnePayUJSKit0aB12UJSKYCParamsC7consentSSvM",
+                "mangledName": "$s12OnePayUJSKit0aB12UJSKYCParamsC7consentSSvM",
+                "moduleName": "OnePayUJSKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "clientId",
+            "printedName": "clientId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@OnePayUJSKit@objc(cs)OnePayUJSKYCParams(py)clientId",
+            "mangledName": "$s12OnePayUJSKit0aB12UJSKYCParamsC8clientIdSSvp",
+            "moduleName": "OnePayUJSKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@OnePayUJSKit@objc(cs)OnePayUJSKYCParams(im)clientId",
+                "mangledName": "$s12OnePayUJSKit0aB12UJSKYCParamsC8clientIdSSvg",
+                "moduleName": "OnePayUJSKit",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@OnePayUJSKit@objc(cs)OnePayUJSKYCParams(im)setClientId:",
+                "mangledName": "$s12OnePayUJSKit0aB12UJSKYCParamsC8clientIdSSvs",
+                "moduleName": "OnePayUJSKit",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12OnePayUJSKit0aB12UJSKYCParamsC8clientIdSSvM",
+                "mangledName": "$s12OnePayUJSKit0aB12UJSKYCParamsC8clientIdSSvM",
+                "moduleName": "OnePayUJSKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "entityId",
+            "printedName": "entityId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@OnePayUJSKit@objc(cs)OnePayUJSKYCParams(py)entityId",
+            "mangledName": "$s12OnePayUJSKit0aB12UJSKYCParamsC8entityIdSSvp",
+            "moduleName": "OnePayUJSKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@OnePayUJSKit@objc(cs)OnePayUJSKYCParams(im)entityId",
+                "mangledName": "$s12OnePayUJSKit0aB12UJSKYCParamsC8entityIdSSvg",
+                "moduleName": "OnePayUJSKit",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@OnePayUJSKit@objc(cs)OnePayUJSKYCParams(im)setEntityId:",
+                "mangledName": "$s12OnePayUJSKit0aB12UJSKYCParamsC8entityIdSSvs",
+                "moduleName": "OnePayUJSKit",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12OnePayUJSKit0aB12UJSKYCParamsC8entityIdSSvM",
+                "mangledName": "$s12OnePayUJSKit0aB12UJSKYCParamsC8entityIdSSvM",
+                "moduleName": "OnePayUJSKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "bankId",
+            "printedName": "bankId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@OnePayUJSKit@objc(cs)OnePayUJSKYCParams(py)bankId",
+            "mangledName": "$s12OnePayUJSKit0aB12UJSKYCParamsC6bankIdSSvp",
+            "moduleName": "OnePayUJSKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@OnePayUJSKit@objc(cs)OnePayUJSKYCParams(im)bankId",
+                "mangledName": "$s12OnePayUJSKit0aB12UJSKYCParamsC6bankIdSSvg",
+                "moduleName": "OnePayUJSKit",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@OnePayUJSKit@objc(cs)OnePayUJSKYCParams(im)setBankId:",
+                "mangledName": "$s12OnePayUJSKit0aB12UJSKYCParamsC6bankIdSSvs",
+                "moduleName": "OnePayUJSKit",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12OnePayUJSKit0aB12UJSKYCParamsC6bankIdSSvM",
+                "mangledName": "$s12OnePayUJSKit0aB12UJSKYCParamsC6bankIdSSvM",
+                "moduleName": "OnePayUJSKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "modeId",
+            "printedName": "modeId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@OnePayUJSKit@objc(cs)OnePayUJSKYCParams(py)modeId",
+            "mangledName": "$s12OnePayUJSKit0aB12UJSKYCParamsC6modeIdSSvp",
+            "moduleName": "OnePayUJSKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@OnePayUJSKit@objc(cs)OnePayUJSKYCParams(im)modeId",
+                "mangledName": "$s12OnePayUJSKit0aB12UJSKYCParamsC6modeIdSSvg",
+                "moduleName": "OnePayUJSKit",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@OnePayUJSKit@objc(cs)OnePayUJSKYCParams(im)setModeId:",
+                "mangledName": "$s12OnePayUJSKit0aB12UJSKYCParamsC6modeIdSSvs",
+                "moduleName": "OnePayUJSKit",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12OnePayUJSKit0aB12UJSKYCParamsC6modeIdSSvM",
+                "mangledName": "$s12OnePayUJSKit0aB12UJSKYCParamsC6modeIdSSvM",
+                "moduleName": "OnePayUJSKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "redirectionUrl",
+            "printedName": "redirectionUrl",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@OnePayUJSKit@objc(cs)OnePayUJSKYCParams(py)redirectionUrl",
+            "mangledName": "$s12OnePayUJSKit0aB12UJSKYCParamsC14redirectionUrlSSvp",
+            "moduleName": "OnePayUJSKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@OnePayUJSKit@objc(cs)OnePayUJSKYCParams(im)redirectionUrl",
+                "mangledName": "$s12OnePayUJSKit0aB12UJSKYCParamsC14redirectionUrlSSvg",
+                "moduleName": "OnePayUJSKit",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@OnePayUJSKit@objc(cs)OnePayUJSKYCParams(im)setRedirectionUrl:",
+                "mangledName": "$s12OnePayUJSKit0aB12UJSKYCParamsC14redirectionUrlSSvs",
+                "moduleName": "OnePayUJSKit",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12OnePayUJSKit0aB12UJSKYCParamsC14redirectionUrlSSvM",
+                "mangledName": "$s12OnePayUJSKit0aB12UJSKYCParamsC14redirectionUrlSSvM",
+                "moduleName": "OnePayUJSKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "secureCode",
+            "printedName": "secureCode",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@OnePayUJSKit@objc(cs)OnePayUJSKYCParams(py)secureCode",
+            "mangledName": "$s12OnePayUJSKit0aB12UJSKYCParamsC10secureCodeSSvp",
+            "moduleName": "OnePayUJSKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@OnePayUJSKit@objc(cs)OnePayUJSKYCParams(im)secureCode",
+                "mangledName": "$s12OnePayUJSKit0aB12UJSKYCParamsC10secureCodeSSvg",
+                "moduleName": "OnePayUJSKit",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@OnePayUJSKit@objc(cs)OnePayUJSKYCParams(im)setSecureCode:",
+                "mangledName": "$s12OnePayUJSKit0aB12UJSKYCParamsC10secureCodeSSvs",
+                "moduleName": "OnePayUJSKit",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12OnePayUJSKit0aB12UJSKYCParamsC10secureCodeSSvM",
+                "mangledName": "$s12OnePayUJSKit0aB12UJSKYCParamsC10secureCodeSSvM",
+                "moduleName": "OnePayUJSKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "environment",
+            "printedName": "environment",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OnePayUJSEnvironment",
+                "printedName": "OnePayUJSKit.OnePayUJSEnvironment",
+                "usr": "c:@M@OnePayUJSKit@E@OnePayUJSEnvironment"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@OnePayUJSKit@objc(cs)OnePayUJSKYCParams(py)environment",
+            "mangledName": "$s12OnePayUJSKit0aB12UJSKYCParamsC11environmentAA0aB14UJSEnvironmentOvp",
+            "moduleName": "OnePayUJSKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OnePayUJSEnvironment",
+                    "printedName": "OnePayUJSKit.OnePayUJSEnvironment",
+                    "usr": "c:@M@OnePayUJSKit@E@OnePayUJSEnvironment"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@OnePayUJSKit@objc(cs)OnePayUJSKYCParams(im)environment",
+                "mangledName": "$s12OnePayUJSKit0aB12UJSKYCParamsC11environmentAA0aB14UJSEnvironmentOvg",
+                "moduleName": "OnePayUJSKit",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OnePayUJSEnvironment",
+                    "printedName": "OnePayUJSKit.OnePayUJSEnvironment",
+                    "usr": "c:@M@OnePayUJSKit@E@OnePayUJSEnvironment"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@OnePayUJSKit@objc(cs)OnePayUJSKYCParams(im)setEnvironment:",
+                "mangledName": "$s12OnePayUJSKit0aB12UJSKYCParamsC11environmentAA0aB14UJSEnvironmentOvs",
+                "moduleName": "OnePayUJSKit",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12OnePayUJSKit0aB12UJSKYCParamsC11environmentAA0aB14UJSEnvironmentOvM",
+                "mangledName": "$s12OnePayUJSKit0aB12UJSKYCParamsC11environmentAA0aB14UJSEnvironmentOvM",
+                "moduleName": "OnePayUJSKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(clientTxnId:customerMobile:consent:clientId:entityId:bankId:modeId:redirectionUrl:secureCode:environment:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OnePayUJSKYCParams",
+                "printedName": "OnePayUJSKit.OnePayUJSKYCParams",
+                "usr": "c:@M@OnePayUJSKit@objc(cs)OnePayUJSKYCParams"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "OnePayUJSEnvironment",
+                "printedName": "OnePayUJSKit.OnePayUJSEnvironment",
+                "usr": "c:@M@OnePayUJSKit@E@OnePayUJSEnvironment"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@OnePayUJSKit@objc(cs)OnePayUJSKYCParams(im)initWithClientTxnId:customerMobile:consent:clientId:entityId:bankId:modeId:redirectionUrl:secureCode:environment:",
+            "mangledName": "$s12OnePayUJSKit0aB12UJSKYCParamsC11clientTxnId14customerMobile7consent0eG006entityG004bankG004modeG014redirectionUrl10secureCode11environmentACSS_S8SAA0aB14UJSEnvironmentOtcfc",
+            "moduleName": "OnePayUJSKit",
+            "objc_name": "initWithClientTxnId:customerMobile:consent:clientId:entityId:bankId:modeId:redirectionUrl:secureCode:environment:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OnePayUJSKYCParams",
+                "printedName": "OnePayUJSKit.OnePayUJSKYCParams",
+                "usr": "c:@M@OnePayUJSKit@objc(cs)OnePayUJSKYCParams"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@OnePayUJSKit@objc(cs)OnePayUJSKYCParams(im)init",
+            "mangledName": "$s12OnePayUJSKit0aB12UJSKYCParamsCACycfc",
+            "moduleName": "OnePayUJSKit",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@OnePayUJSKit@objc(cs)OnePayUJSKYCParams",
+        "mangledName": "$s12OnePayUJSKit0aB12UJSKYCParamsC",
+        "moduleName": "OnePayUJSKit",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
         "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
@@ -1840,6 +2997,20 @@
         "kind": "Import",
         "name": "WebKit",
         "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "OnePayUJSKit"
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "OnePayUJSKit"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreLocation",
+        "printedName": "CoreLocation",
         "declKind": "Import",
         "moduleName": "OnePayUJSKit"
       },
@@ -1901,6 +3072,13 @@
         "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "OnePayUJSKit"
+      },
+      {
+        "kind": "Import",
+        "name": "CommonCrypto",
+        "printedName": "CommonCrypto",
         "declKind": "Import",
         "moduleName": "OnePayUJSKit"
       },
@@ -2066,6 +3244,47 @@
             "moduleName": "OnePayUJSKit",
             "static": true,
             "objc_name": "showCardsWithParentVC:paramDict:delegate:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "initiateKYC",
+            "printedName": "initiateKYC(parentVC:params:delegate:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "OnePayUJSKYCParams",
+                "printedName": "OnePayUJSKit.OnePayUJSKYCParams",
+                "usr": "c:@M@OnePayUJSKit@objc(cs)OnePayUJSKYCParams"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "OnePayUJSSDKDelegate",
+                "printedName": "any OnePayUJSKit.OnePayUJSSDKDelegate",
+                "usr": "c:@M@OnePayUJSKit@objc(pl)OnePayUJSSDKDelegate"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@OnePayUJSKit@objc(cs)OnePayUJSSDK(cm)initiateKYCWithParentVC:params:delegate:",
+            "mangledName": "$s12OnePayUJSKit0aB6UJSSDKC11initiateKYC8parentVC6params8delegateySo16UIViewControllerC_AA0aB12UJSKYCParamsCAA0aB14UJSSDKDelegate_ptFZ",
+            "moduleName": "OnePayUJSKit",
+            "static": true,
+            "objc_name": "initiateKYCWithParentVC:params:delegate:",
             "declAttributes": [
               "AccessControl",
               "ObjC"
@@ -2695,6 +3914,20 @@
           },
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -2749,865 +3982,921 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/wallet-management\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Utils\/RequestBuilder\/OnePayUJSRequestModels.swift",
+      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Utils\/RequestBuilder\/OnePayUJSRequestModels.swift",
       "kind": "StringLiteral",
       "offset": 409,
       "length": 13,
       "value": "\"referenceId\""
     },
     {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/wallet-management\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Utils\/RequestBuilder\/OnePayUJSRequestModels.swift",
+      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Utils\/RequestBuilder\/OnePayUJSRequestModels.swift",
       "kind": "StringLiteral",
       "offset": 450,
       "length": 13,
       "value": "\"redirectUrl\""
     },
     {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/wallet-management\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Publics\/OnePayUJSParams.swift",
+      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Publics\/OnePayUJSParams.swift",
       "kind": "Dictionary",
       "offset": 568,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/wallet-management\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Publics\/OnePayUJSParams.swift",
+      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Publics\/OnePayUJSParams.swift",
       "kind": "IntegerLiteral",
       "offset": 1156,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/wallet-management\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Publics\/OnePayUJSParams.swift",
+      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Publics\/OnePayUJSParams.swift",
       "kind": "IntegerLiteral",
       "offset": 1167,
       "length": 4,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/wallet-management\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Modules\/Webview\/OnePayUJSWebViewController.swift",
+      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Modules\/Webview\/OnePayUJSWebViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 630,
+      "offset": 714,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/wallet-management\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Modules\/Webview\/OnePayUJSWebViewController.swift",
+      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Modules\/Webview\/OnePayUJSWebViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 695,
+      "offset": 779,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/wallet-management\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Modules\/Webview\/OnePayUJSWebViewController.swift",
+      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Modules\/Webview\/OnePayUJSWebViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 745,
+      "offset": 829,
       "length": 3,
       "value": "600"
     },
     {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/wallet-management\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Modules\/Webview\/OnePayUJSWebViewController.swift",
+      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Modules\/Webview\/OnePayUJSWebViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 836,
+      "offset": 920,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/wallet-management\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Modules\/Webview\/OnePayUJSWebViewController.swift",
+      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Modules\/Webview\/OnePayUJSWebViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 899,
+      "offset": 983,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/wallet-management\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Modules\/Webview\/OnePayUJSWebViewController.swift",
+      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Modules\/Webview\/OnePayUJSWebViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 947,
+      "offset": 1031,
       "length": 3,
       "value": "300"
     },
     {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/wallet-management\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Modules\/Webview\/OnePayUJSWebViewController.swift",
+      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Modules\/Webview\/OnePayUJSWebViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1006,
+      "offset": 1090,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/wallet-management\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Modules\/Webview\/OnePayUJSWebViewController.swift",
+      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Modules\/Webview\/OnePayUJSWebViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1012,
+      "offset": 1096,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/wallet-management\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Modules\/Webview\/OnePayUJSWebViewController.swift",
+      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Modules\/Webview\/OnePayUJSWebViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1536,
+      "offset": 1413,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Modules\/Webview\/OnePayUJSWebViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1654,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Modules\/Webview\/OnePayUJSWebViewController.swift",
+      "kind": "Array",
+      "offset": 1727,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Modules\/Webview\/OnePayUJSWebViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1934,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/wallet-management\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Analytics\/PayUAnalyticsManager.swift",
+      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Modules\/Webview\/OnePayUJSWebViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2185,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Modules\/Webview\/OnePayUJSWebViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2268,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Analytics\/PayUAnalyticsManager.swift",
       "kind": "StringLiteral",
       "offset": 2387,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/wallet-management\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Analytics\/PayUAnalyticsManager.swift",
+      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Analytics\/PayUAnalyticsManager.swift",
       "kind": "BooleanLiteral",
       "offset": 2405,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/wallet-management\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Analytics\/PayUEventConstants.swift",
+      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Analytics\/PayUEventConstants.swift",
       "kind": "StringLiteral",
       "offset": 172,
       "length": 6,
       "value": "\"High\""
     },
     {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/wallet-management\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Analytics\/PayUEventConstants.swift",
+      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Analytics\/PayUEventConstants.swift",
       "kind": "StringLiteral",
       "offset": 198,
       "length": 5,
       "value": "\"Low\""
     },
     {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/wallet-management\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Analytics\/PayUEventConstants.swift",
+      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Analytics\/PayUEventConstants.swift",
       "kind": "StringLiteral",
       "offset": 257,
       "length": 4,
       "value": "\"ts\""
     },
     {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/wallet-management\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Analytics\/PayUEventConstants.swift",
+      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Analytics\/PayUEventConstants.swift",
       "kind": "StringLiteral",
       "offset": 302,
       "length": 20,
       "value": "\"applicationPackage\""
     },
     {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/wallet-management\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Analytics\/PayUEventConstants.swift",
+      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Analytics\/PayUEventConstants.swift",
       "kind": "StringLiteral",
       "offset": 363,
       "length": 20,
       "value": "\"applicationVersion\""
     },
     {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/wallet-management\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Analytics\/PayUEventConstants.swift",
+      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Analytics\/PayUEventConstants.swift",
       "kind": "StringLiteral",
       "offset": 416,
       "length": 12,
       "value": "\"loggingSdk\""
     },
     {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/wallet-management\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Analytics\/PayUEventConstants.swift",
+      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Analytics\/PayUEventConstants.swift",
       "kind": "StringLiteral",
       "offset": 461,
       "length": 12,
       "value": "\"sdkVersion\""
     },
     {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/wallet-management\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Analytics\/PayUEventConstants.swift",
+      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Analytics\/PayUEventConstants.swift",
       "kind": "StringLiteral",
       "offset": 503,
       "length": 9,
       "value": "\"sdkName\""
     },
     {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/wallet-management\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Analytics\/PayUEventConstants.swift",
+      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Analytics\/PayUEventConstants.swift",
       "kind": "StringLiteral",
       "offset": 546,
       "length": 13,
       "value": "\"merchantKey\""
     },
     {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/wallet-management\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Analytics\/PayUEventConstants.swift",
+      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Analytics\/PayUEventConstants.swift",
       "kind": "StringLiteral",
       "offset": 587,
       "length": 7,
       "value": "\"refId\""
     },
     {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/wallet-management\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Analytics\/PayUEventConstants.swift",
+      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Analytics\/PayUEventConstants.swift",
       "kind": "StringLiteral",
       "offset": 630,
       "length": 15,
       "value": "\"deviceDetails\""
     },
     {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/wallet-management\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Analytics\/PayUEventConstants.swift",
+      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Analytics\/PayUEventConstants.swift",
       "kind": "StringLiteral",
       "offset": 676,
       "length": 10,
       "value": "\"eventKey\""
     },
     {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/wallet-management\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Analytics\/PayUEventConstants.swift",
+      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Analytics\/PayUEventConstants.swift",
       "kind": "StringLiteral",
       "offset": 717,
       "length": 10,
       "value": "\"platform\""
     },
     {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/wallet-management\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Analytics\/PayUEventConstants.swift",
+      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Analytics\/PayUEventConstants.swift",
       "kind": "StringLiteral",
       "offset": 759,
       "length": 11,
       "value": "\"eventType\""
     },
     {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/wallet-management\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Analytics\/PayUEventConstants.swift",
+      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Analytics\/PayUEventConstants.swift",
       "kind": "StringLiteral",
       "offset": 803,
       "length": 12,
       "value": "\"eventValue\""
     },
     {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/wallet-management\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Analytics\/PayUEventConstants.swift",
+      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Analytics\/PayUEventConstants.swift",
       "kind": "StringLiteral",
       "offset": 850,
       "length": 14,
       "value": "\"merchantName\""
     },
     {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/wallet-management\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Analytics\/PayUEventConstants.swift",
+      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Analytics\/PayUEventConstants.swift",
       "kind": "StringLiteral",
       "offset": 896,
       "length": 11,
       "value": "\"eventTime\""
     },
     {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/wallet-management\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Analytics\/PayUEventConstants.swift",
+      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Analytics\/PayUEventConstants.swift",
       "kind": "StringLiteral",
       "offset": 939,
       "length": 9,
       "value": "\"evtData\""
     },
     {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/wallet-management\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Analytics\/PayUEventConstants.swift",
+      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Analytics\/PayUEventConstants.swift",
       "kind": "StringLiteral",
       "offset": 980,
       "length": 9,
       "value": "\"evtName\""
     },
     {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/wallet-management\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Analytics\/PayUEventConstants.swift",
+      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Analytics\/PayUEventConstants.swift",
       "kind": "StringLiteral",
       "offset": 1029,
       "length": 19,
       "value": "\"loggingSdkVersion\""
     },
     {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/wallet-management\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Analytics\/PayUEventConstants.swift",
+      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Analytics\/PayUEventConstants.swift",
       "kind": "StringLiteral",
       "offset": 1081,
       "length": 12,
       "value": "\"deviceType\""
     },
     {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/wallet-management\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Analytics\/PayUEventConstants.swift",
+      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Analytics\/PayUEventConstants.swift",
       "kind": "StringLiteral",
       "offset": 1120,
       "length": 6,
       "value": "\"type\""
     },
     {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/wallet-management\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Analytics\/PayUEventConstants.swift",
+      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Analytics\/PayUEventConstants.swift",
       "kind": "StringLiteral",
       "offset": 1155,
       "length": 8,
       "value": "\"status\""
     },
     {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/wallet-management\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Analytics\/PayUEventConstants.swift",
+      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Analytics\/PayUEventConstants.swift",
       "kind": "StringLiteral",
       "offset": 1190,
       "length": 6,
       "value": "\"name\""
     },
     {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/wallet-management\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Analytics\/PayUEventConstants.swift",
+      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Analytics\/PayUEventConstants.swift",
       "kind": "StringLiteral",
       "offset": 1224,
       "length": 7,
       "value": "\"txnId\""
     },
     {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/wallet-management\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Analytics\/PayUEventConstants.swift",
+      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Analytics\/PayUEventConstants.swift",
       "kind": "StringLiteral",
       "offset": 1261,
       "length": 9,
       "value": "\"unKnown\""
     },
     {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/wallet-management\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Analytics\/PayUEventConstants.swift",
+      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Analytics\/PayUEventConstants.swift",
       "kind": "StringLiteral",
       "offset": 1296,
       "length": 5,
       "value": "\"iOS\""
     },
     {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/wallet-management\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Analytics\/PayUEventConstants.swift",
+      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Analytics\/PayUEventConstants.swift",
       "kind": "StringLiteral",
       "offset": 1331,
       "length": 9,
       "value": "\"jsEvent\""
     },
     {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/wallet-management\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Analytics\/PayUEventConstants.swift",
+      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Analytics\/PayUEventConstants.swift",
       "kind": "StringLiteral",
       "offset": 1367,
       "length": 6,
       "value": "\"body\""
     },
     {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/wallet-management\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Analytics\/PayUEventConstants.swift",
+      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Analytics\/PayUEventConstants.swift",
       "kind": "StringLiteral",
       "offset": 1399,
       "length": 5,
       "value": "\"url\""
     },
     {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/wallet-management\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Analytics\/PayUEventConstants.swift",
+      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Analytics\/PayUEventConstants.swift",
       "kind": "StringLiteral",
       "offset": 1464,
       "length": 4,
       "value": "\"ts\""
     },
     {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/wallet-management\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Analytics\/PayUEventConstants.swift",
+      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Analytics\/PayUEventConstants.swift",
       "kind": "StringLiteral",
       "offset": 1496,
       "length": 8,
       "value": "\"txn_id\""
     },
     {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/wallet-management\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Analytics\/PayUEventConstants.swift",
+      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Analytics\/PayUEventConstants.swift",
       "kind": "StringLiteral",
       "offset": 1545,
       "length": 21,
       "value": "\"application_package\""
     },
     {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/wallet-management\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Analytics\/PayUEventConstants.swift",
+      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Analytics\/PayUEventConstants.swift",
       "kind": "StringLiteral",
       "offset": 1607,
       "length": 21,
       "value": "\"application_version\""
     },
     {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/wallet-management\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Analytics\/PayUEventConstants.swift",
+      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Analytics\/PayUEventConstants.swift",
       "kind": "StringLiteral",
       "offset": 1661,
       "length": 13,
       "value": "\"logging_sdk\""
     },
     {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/wallet-management\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Analytics\/PayUEventConstants.swift",
+      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Analytics\/PayUEventConstants.swift",
       "kind": "StringLiteral",
       "offset": 1707,
       "length": 13,
       "value": "\"sdk_version\""
     },
     {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/wallet-management\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Analytics\/PayUEventConstants.swift",
+      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Analytics\/PayUEventConstants.swift",
       "kind": "StringLiteral",
       "offset": 1750,
       "length": 10,
       "value": "\"sdk_name\""
     },
     {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/wallet-management\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Analytics\/PayUEventConstants.swift",
+      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Analytics\/PayUEventConstants.swift",
       "kind": "StringLiteral",
       "offset": 1794,
       "length": 14,
       "value": "\"merchant_key\""
     },
     {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/wallet-management\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Analytics\/PayUEventConstants.swift",
+      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Analytics\/PayUEventConstants.swift",
       "kind": "StringLiteral",
       "offset": 1836,
       "length": 8,
       "value": "\"ref_id\""
     },
     {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/wallet-management\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Analytics\/PayUEventConstants.swift",
+      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Analytics\/PayUEventConstants.swift",
       "kind": "StringLiteral",
       "offset": 1880,
       "length": 16,
       "value": "\"device_details\""
     },
     {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/wallet-management\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Analytics\/PayUEventConstants.swift",
+      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Analytics\/PayUEventConstants.swift",
       "kind": "StringLiteral",
       "offset": 1927,
       "length": 11,
       "value": "\"event_key\""
     },
     {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/wallet-management\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Analytics\/PayUEventConstants.swift",
+      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Analytics\/PayUEventConstants.swift",
       "kind": "StringLiteral",
       "offset": 1969,
       "length": 10,
       "value": "\"platform\""
     },
     {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/wallet-management\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Analytics\/PayUEventConstants.swift",
+      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Analytics\/PayUEventConstants.swift",
       "kind": "StringLiteral",
       "offset": 2011,
       "length": 12,
       "value": "\"event_type\""
     },
     {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/wallet-management\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Analytics\/PayUEventConstants.swift",
+      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Analytics\/PayUEventConstants.swift",
       "kind": "StringLiteral",
       "offset": 2056,
       "length": 13,
       "value": "\"event_value\""
     },
     {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/wallet-management\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Analytics\/PayUEventConstants.swift",
+      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Analytics\/PayUEventConstants.swift",
       "kind": "StringLiteral",
       "offset": 2108,
       "length": 18,
       "value": "\"walletIdentifier\""
     },
     {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/wallet-management\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Analytics\/PayUEventConstants.swift",
+      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Analytics\/PayUEventConstants.swift",
       "kind": "StringLiteral",
       "offset": 2158,
       "length": 12,
       "value": "\"event_time\""
     },
     {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/wallet-management\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Analytics\/PayUEventConstants.swift",
+      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Analytics\/PayUEventConstants.swift",
       "kind": "StringLiteral",
       "offset": 2206,
       "length": 16,
       "value": "\"event_severity\""
     },
     {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/wallet-management\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Analytics\/PayUEventConstants.swift",
+      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Analytics\/PayUEventConstants.swift",
       "kind": "StringLiteral",
       "offset": 2249,
       "length": 6,
       "value": "\"name\""
     },
     {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/wallet-management\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Analytics\/PayUEventConstants.swift",
+      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Analytics\/PayUEventConstants.swift",
       "kind": "StringLiteral",
       "offset": 2284,
       "length": 8,
       "value": "\"status\""
     },
     {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/wallet-management\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Analytics\/PayUEventConstants.swift",
+      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Analytics\/PayUEventConstants.swift",
       "kind": "StringLiteral",
       "offset": 2321,
       "length": 8,
       "value": "\"amount\""
     },
     {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/wallet-management\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Analytics\/PayUEventConstants.swift",
+      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Analytics\/PayUEventConstants.swift",
       "kind": "StringLiteral",
       "offset": 2364,
       "length": 14,
       "value": "\"mobileNumber\""
     },
     {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/wallet-management\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Analytics\/PayUEventConstants.swift",
+      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Analytics\/PayUEventConstants.swift",
       "kind": "StringLiteral",
       "offset": 2430,
       "length": 7,
       "value": "\"event\""
     },
     {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/wallet-management\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Analytics\/PayUEventConstants.swift",
+      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Analytics\/PayUEventConstants.swift",
       "kind": "StringLiteral",
       "offset": 2497,
       "length": 14,
       "value": "\"PPI Sdk Init\""
     },
     {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/wallet-management\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Analytics\/PayUEventConstants.swift",
+      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Analytics\/PayUEventConstants.swift",
       "kind": "StringLiteral",
       "offset": 2539,
       "length": 18,
       "value": "\"PPI Sdk Callback\""
     },
     {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/wallet-management\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Analytics\/PayUEventConstants.swift",
+      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Analytics\/PayUEventConstants.swift",
       "kind": "StringLiteral",
       "offset": 2581,
       "length": 14,
       "value": "\"PPI Sdk Hash\""
     },
     {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/wallet-management\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Analytics\/PayUEventConstants.swift",
+      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Analytics\/PayUEventConstants.swift",
       "kind": "StringLiteral",
       "offset": 2623,
       "length": 25,
       "value": "\"PPI Sdk Post To WebView\""
     },
     {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/wallet-management\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Analytics\/PayUEventConstants.swift",
+      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Analytics\/PayUEventConstants.swift",
       "kind": "StringLiteral",
       "offset": 2707,
       "length": 7,
       "value": "\"Error\""
     },
     {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/wallet-management\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Analytics\/PayUEventConstants.swift",
+      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Analytics\/PayUEventConstants.swift",
       "kind": "StringLiteral",
       "offset": 2735,
       "length": 6,
       "value": "\"Info\""
     },
     {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/wallet-management\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Utils\/Extensions.swift",
+      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Utils\/Extensions.swift",
       "kind": "StringLiteral",
-      "offset": 969,
+      "offset": 989,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/wallet-management\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Utils\/Extensions.swift",
+      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Utils\/Extensions.swift",
       "kind": "IntegerLiteral",
-      "offset": 1061,
+      "offset": 1081,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/wallet-management\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Utils\/Extensions.swift",
+      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Utils\/Extensions.swift",
       "kind": "StringLiteral",
-      "offset": 1586,
+      "offset": 1606,
       "length": 20,
       "value": "\"_\""
     },
     {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/wallet-management\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Utils\/Extensions.swift",
+      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Utils\/Extensions.swift",
       "kind": "StringLiteral",
-      "offset": 1605,
+      "offset": 1625,
       "length": 14,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/wallet-management\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Modules\/Webview\/OnePayUJSWebViewModel.swift",
+      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Modules\/Webview\/OnePayUJSWebViewModel.swift",
       "kind": "StringLiteral",
       "offset": 207,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/wallet-management\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Modules\/Webview\/OnePayUJSWebViewModel.swift",
+      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Modules\/Webview\/OnePayUJSWebViewModel.swift",
       "kind": "StringLiteral",
       "offset": 226,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/wallet-management\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Modules\/Webview\/OnePayUJSWebViewModel.swift",
+      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Modules\/Webview\/OnePayUJSWebViewModel.swift",
       "kind": "StringLiteral",
       "offset": 249,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/wallet-management\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Modules\/Webview\/OnePayUJSWebViewModel.swift",
+      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Modules\/Webview\/OnePayUJSWebViewModel.swift",
       "kind": "StringLiteral",
       "offset": 267,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/wallet-management\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Modules\/Webview\/OnePayUJSWebViewModel.swift",
+      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Modules\/Webview\/OnePayUJSWebViewModel.swift",
       "kind": "StringLiteral",
       "offset": 285,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/wallet-management\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Modules\/Webview\/OnePayUJSWebViewModel.swift",
+      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Modules\/Webview\/OnePayUJSWebViewModel.swift",
       "kind": "StringLiteral",
       "offset": 303,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/wallet-management\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Modules\/Webview\/OnePayUJSWebViewModel.swift",
+      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Modules\/Webview\/OnePayUJSWebViewModel.swift",
       "kind": "StringLiteral",
       "offset": 333,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/wallet-management\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Utils\/OnePayUJConstants.swift",
+      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Modules\/Webview\/OnePayUJSWebViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 352,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Utils\/OnePayUJConstants.swift",
       "kind": "StringLiteral",
       "offset": 156,
       "length": 15,
       "value": "\" is Missing, \""
     },
     {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/wallet-management\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Utils\/OnePayUJConstants.swift",
+      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Utils\/OnePayUJConstants.swift",
       "kind": "StringLiteral",
       "offset": 208,
       "length": 22,
       "value": "\"Something went wrong\""
     },
     {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/wallet-management\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Utils\/OnePayUJConstants.swift",
+      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Utils\/OnePayUJConstants.swift",
       "kind": "StringLiteral",
       "offset": 262,
       "length": 16,
       "value": "\"Invalid Params\""
     },
     {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/wallet-management\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Utils\/OnePayUJConstants.swift",
+      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Utils\/OnePayUJConstants.swift",
       "kind": "StringLiteral",
       "offset": 307,
       "length": 13,
       "value": "\"No Internet\""
     },
     {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/wallet-management\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Utils\/OnePayUJConstants.swift",
+      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Utils\/OnePayUJConstants.swift",
       "kind": "StringLiteral",
       "offset": 365,
       "length": 13,
       "value": "\"merchantKey\""
     },
     {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/wallet-management\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Utils\/OnePayUJConstants.swift",
+      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Utils\/OnePayUJConstants.swift",
       "kind": "StringLiteral",
       "offset": 409,
       "length": 14,
       "value": "\"mobileNumber\""
     },
     {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/wallet-management\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Utils\/OnePayUJConstants.swift",
+      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Utils\/OnePayUJConstants.swift",
       "kind": "StringLiteral",
       "offset": 453,
       "length": 13,
       "value": "\"referenceId\""
     },
     {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/wallet-management\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Utils\/OnePayUJConstants.swift",
+      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Utils\/OnePayUJConstants.swift",
       "kind": "StringLiteral",
       "offset": 496,
       "length": 13,
       "value": "\"environment\""
     },
     {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/wallet-management\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Utils\/OnePayUJConstants.swift",
+      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Utils\/OnePayUJConstants.swift",
       "kind": "StringLiteral",
       "offset": 544,
       "length": 18,
       "value": "\"walletIdentifier\""
     },
     {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/wallet-management\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Utils\/OnePayUJConstants.swift",
+      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Utils\/OnePayUJConstants.swift",
       "kind": "StringLiteral",
       "offset": 590,
       "length": 11,
       "value": "\"walletUrn\""
     },
     {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/wallet-management\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Utils\/OnePayUJConstants.swift",
+      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Utils\/OnePayUJConstants.swift",
       "kind": "StringLiteral",
       "offset": 628,
       "length": 10,
       "value": "\"hashName\""
     },
     {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/wallet-management\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Utils\/OnePayUJConstants.swift",
+      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Utils\/OnePayUJConstants.swift",
       "kind": "StringLiteral",
       "offset": 667,
       "length": 12,
       "value": "\"hashString\""
     },
     {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/wallet-management\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Utils\/OnePayUJConstants.swift",
+      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Utils\/OnePayUJConstants.swift",
       "kind": "StringLiteral",
       "offset": 702,
       "length": 6,
       "value": "\"hash\""
     },
     {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/wallet-management\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Utils\/OnePayUJConstants.swift",
+      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Utils\/OnePayUJConstants.swift",
       "kind": "StringLiteral",
       "offset": 742,
       "length": 20,
       "value": "\"OnePayUJSSDKCancel\""
     },
     {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/wallet-management\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Utils\/OnePayUJConstants.swift",
+      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Utils\/OnePayUJConstants.swift",
       "kind": "StringLiteral",
       "offset": 801,
       "length": 22,
       "value": "\"createLocalStatusBar\""
     },
     {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/wallet-management\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Utils\/OnePayUJConstants.swift",
+      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Utils\/OnePayUJConstants.swift",
       "kind": "StringLiteral",
       "offset": 851,
       "length": 11,
       "value": "\"statusBar\""
     },
     {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/wallet-management\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Utils\/OnePayUJConstants.swift",
+      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Utils\/OnePayUJConstants.swift",
       "kind": "StringLiteral",
       "offset": 892,
       "length": 13,
       "value": "\"currentData\""
     },
     {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/wallet-management\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Utils\/OnePayUJConstants.swift",
+      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Utils\/OnePayUJConstants.swift",
       "kind": "StringLiteral",
       "offset": 937,
       "length": 15,
       "value": "\"cellularEntry\""
     },
     {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/wallet-management\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Utils\/OnePayUJConstants.swift",
+      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Utils\/OnePayUJConstants.swift",
       "kind": "StringLiteral",
       "offset": 983,
       "length": 14,
       "value": "\"displayValue\""
     },
     {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/wallet-management\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Utils\/OnePayUJConstants.swift",
+      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Utils\/OnePayUJConstants.swift",
       "kind": "StringLiteral",
       "offset": 1054,
       "length": 27,
       "value": "\"EEE, dd MMM yyyy HH:mm:ss\""
     },
     {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/wallet-management\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Utils\/OnePayUJConstants.swift",
+      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Utils\/OnePayUJConstants.swift",
       "kind": "StringLiteral",
       "offset": 1112,
       "length": 14,
       "value": "\"OnePayUJSSDK\""
     },
     {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/wallet-management\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Utils\/OnePayUJConstants.swift",
+      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Utils\/OnePayUJConstants.swift",
       "kind": "StringLiteral",
       "offset": 1159,
       "length": 28,
       "value": "\"CFBundleShortVersionString\""
     },
     {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/wallet-management\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Utils\/OnePayUJConstants.swift",
+      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Utils\/OnePayUJConstants.swift",
       "kind": "StringLiteral",
       "offset": 1216,
       "length": 27,
       "value": "\"https:\/\/www.google.co.in\/\""
     },
     {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/wallet-management\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Utils\/OnePayUJConstants.swift",
+      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Utils\/OnePayUJConstants.swift",
       "kind": "StringLiteral",
       "offset": 1265,
       "length": 5,
       "value": "\"GMT\""
     },
     {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/wallet-management\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Utils\/OnePayUJConstants.swift",
+      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Utils\/OnePayUJConstants.swift",
       "kind": "StringLiteral",
       "offset": 1294,
       "length": 7,
       "value": "\"en_US\""
     },
     {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/wallet-management\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Utils\/OnePayUJConstants.swift",
+      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Utils\/OnePayUJConstants.swift",
       "kind": "StringLiteral",
       "offset": 1332,
       "length": 14,
       "value": "\"OnePayUJSKit\""
     },
     {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/wallet-management\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Utils\/OnePayUJConstants.swift",
+      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Utils\/OnePayUJConstants.swift",
       "kind": "StringLiteral",
       "offset": 1376,
       "length": 58,
       "value": "\"\", algorithm=\"sha512\", headers=\"date\", signature=\"\""
     },
     {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/wallet-management\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Utils\/OnePayUJConstants.swift",
+      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Utils\/OnePayUJConstants.swift",
       "kind": "StringLiteral",
       "offset": 1466,
       "length": 18,
       "value": "\"hmac username=\"\""
     },
     {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/wallet-management\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Utils\/OnePayUJConstants.swift",
+      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Utils\/OnePayUJConstants.swift",
       "kind": "StringLiteral",
       "offset": 1507,
       "length": 6,
       "value": "\"data\""
     },
     {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/wallet-management\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Utils\/OnePayUJConstants.swift",
+      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Utils\/OnePayUJConstants.swift",
       "kind": "StringLiteral",
       "offset": 1545,
       "length": 15,
       "value": "\"Authorization\""
     },
     {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/wallet-management\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Utils\/OnePayUJConstants.swift",
+      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Utils\/OnePayUJConstants.swift",
       "kind": "StringLiteral",
       "offset": 1583,
       "length": 6,
       "value": "\"Date\""
     },
     {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/wallet-management\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Utils\/OnePayUJConstants.swift",
+      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Utils\/OnePayUJConstants.swift",
       "kind": "StringLiteral",
       "offset": 1610,
       "length": 4,
       "value": "\"Ok\""
     },
     {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/wallet-management\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Utils\/OnePayUJConstants.swift",
+      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Utils\/OnePayUJConstants.swift",
       "kind": "StringLiteral",
       "offset": 1667,
       "length": 14,
       "value": "\"Content-Type\""
     },
     {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/wallet-management\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Utils\/OnePayUJConstants.swift",
+      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Utils\/OnePayUJConstants.swift",
       "kind": "StringLiteral",
       "offset": 1725,
       "length": 35,
       "value": "\"application\/x-www-form-urlencoded\""
     },
     {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/wallet-management\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Utils\/OnePayUJConstants.swift",
+      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Utils\/OnePayUJConstants.swift",
       "kind": "StringLiteral",
       "offset": 1804,
       "length": 5,
       "value": "\"GET\""
     },
     {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/wallet-management\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Utils\/OnePayUJConstants.swift",
+      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Utils\/OnePayUJConstants.swift",
       "kind": "StringLiteral",
       "offset": 1832,
       "length": 6,
       "value": "\"POST\""
     },
     {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/wallet-management\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Utils\/OnePayUJConstants.swift",
+      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Utils\/OnePayUJConstants.swift",
       "kind": "StringLiteral",
       "offset": 1889,
       "length": 53,
       "value": "\"https:\/\/api.payu.in\/loyalty-points\/olw\/user\/card\/v1\""
     },
     {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/wallet-management\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Utils\/OnePayUJConstants.swift",
+      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Utils\/OnePayUJConstants.swift",
       "kind": "StringLiteral",
       "offset": 1975,
       "length": 57,
       "value": "\"https:\/\/apitest.payu.in\/loyalty-points\/olw\/user\/card\/v1\""
+    },
+    {
+      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Utils\/OnePayUJConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 2061,
+      "length": 61,
+      "value": "\"https:\/\/wibmo-citrus.pc.enstage-sas.com\/api\/kyc\/v1\/initiate\""
+    },
+    {
+      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/wallet-management-sdk\/iOS\/Dependency\/OnePayUJSSDK\/OnePayUJSKit\/Utils\/OnePayUJConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 2151,
+      "length": 49,
+      "value": "\"https:\/\/payu-vkyc.wibmo.com\/api\/kyc\/v1\/initiate\""
     }
   ]
 }
