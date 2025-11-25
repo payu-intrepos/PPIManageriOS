@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name                = "PayUIndia-PPI-SDK"
-  s.version             = "1.1.0.alpha.1"
+  s.version             = "1.1.0"
   s.license             = "MIT"
   s.homepage            = "https://github.com/payu-intrepos/PPIManageriOS"
   s.author              = { "PayU" => "contact@payu.in"  }
@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   s.platform            = :ios , "13.0"
   s.vendored_frameworks = 'OnePayUJSKit.xcframework'
 
-  s.dependency            'PayUIndia-NetworkReachability', '~> 2.0'
+  s.dependency            'PayUIndia-NetworkReachability', '~> 2.1'
   s.dependency            'PayUIndia-CrashReporter', '~> 4.0'
   s.dependency            'PayUIndia-Analytics', '~> 4.0'
 end

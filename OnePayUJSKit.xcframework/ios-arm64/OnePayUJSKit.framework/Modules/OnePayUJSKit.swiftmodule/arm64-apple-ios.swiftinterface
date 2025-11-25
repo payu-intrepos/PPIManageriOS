@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.2 effective-5.10 (swiftlang-6.2.0.19.9 clang-1700.3.19.1)
-// swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name OnePayUJSKit
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2
+// swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
+// swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name OnePayUJSKit
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface
 import AVFoundation
 import CommonCrypto
 import CoreLocation
@@ -33,17 +33,13 @@ public typealias OnePayUJSHashCompletion = (_ hashDict: [Swift.String : Swift.St
   @objc public var walletUrn: Swift.String?
   @objc public var hashes: OnePayUJSKit.OnePayUJSHashes?
   @objc public var additionalParam: [Swift.String : Any]
-  #if compiler(>=5.3) && $NonescapableTypes
   @objc public init(merchantKey: Swift.String, referenceId: Swift.String, environment: OnePayUJSKit.OnePayUJSEnvironment, mobileNumber: Swift.String, walletUrn: Swift.String?, walletIdentifier: Swift.String? = nil)
-  #endif
   @objc deinit
 }
 @objc public enum OnePayUJSEnvironment : Swift.Int {
   case production = 0
   case test
-  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.Int)
-  #endif
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
     get
