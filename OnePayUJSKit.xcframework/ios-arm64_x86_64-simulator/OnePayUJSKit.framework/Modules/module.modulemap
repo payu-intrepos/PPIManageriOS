@@ -7,5 +7,4 @@ framework module OnePayUJSKit {
 
 module OnePayUJSKit.Swift {
   header "OnePayUJSKit-Swift.h"
-  requires objc
 }

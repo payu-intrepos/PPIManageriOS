@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/OnePayUJSKit-Swift.h</key>
 		<data>
-		maA/PG4nfM8d97GdK9jG00DA5Hw=
+		1AOj5pm8RXGYrbvhtV7KUmlK8eI=
 		</data>
 		<key>Headers/OnePayUJSKit.h</key>
 		<data>
@@ -14,51 +14,51 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		XY+wKVIPW5yIfUOHOtFYcnFH/iM=
+		/rhomZDmiJwirmEwKiH6mm/MgLY=
 		</data>
 		<key>Modules/OnePayUJSKit.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		Nzk/AlfZ/Z1yH5Ur0FSu5l9Enp8=
+		TCGDFT2HqdC3T2yp4bLlwmTQvTM=
 		</data>
 		<key>Modules/OnePayUJSKit.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		THy2N6mznqP4zZ1KJQZlNkRlDXI=
+		CJAmTEDtJGVCGLytgT48Ph60g44=
 		</data>
 		<key>Modules/OnePayUJSKit.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		vBaFyy9qS1x/AvHlZBUZsWWWFSs=
+		T3zQ/qUZyIQgba+s/DElm1pJmW8=
 		</data>
 		<key>Modules/OnePayUJSKit.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		THy2N6mznqP4zZ1KJQZlNkRlDXI=
+		CJAmTEDtJGVCGLytgT48Ph60g44=
 		</data>
 		<key>Modules/OnePayUJSKit.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		KtrehigCEAV9J0pz5FyZsXc/+iQ=
+		F1/V8Rl1rm3ZvR/0umjkbNzp8wc=
 		</data>
 		<key>Modules/OnePayUJSKit.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		Nzk/AlfZ/Z1yH5Ur0FSu5l9Enp8=
+		TCGDFT2HqdC3T2yp4bLlwmTQvTM=
 		</data>
 		<key>Modules/OnePayUJSKit.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		FLLelCU4OQXNO+VzDnY6HXCGXYA=
+		2TuRQyidygTqKpR9JROwj52Yb7g=
 		</data>
 		<key>Modules/OnePayUJSKit.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		q7s5fOsqs8PVZlwCkE3rZFebdEU=
+		JRNlZHSPFzNvewRHXhVP2m0lrEQ=
 		</data>
 		<key>Modules/OnePayUJSKit.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		FLLelCU4OQXNO+VzDnY6HXCGXYA=
+		2TuRQyidygTqKpR9JROwj52Yb7g=
 		</data>
 		<key>Modules/OnePayUJSKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		2Lo7s279gGAj8v0c6YqTYWjmXfc=
+		Wn6+9q8YCaFrVpKlqiEPE54l9ds=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		lderMHXLxSpjEO3J+DqZ2yoFiEg=
+		8Ei3NKnNTuAYpW7SBSeuA5LfMeY=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -67,7 +67,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			82UD/C7q1ID+R62gZWcbSP9DPTRxaV1lxngzY+SRY3s=
+			716t+20vZTQIHyKmNSE9T5x7QY5FOz0kg3sUr0FmY5E=
 			</data>
 		</dict>
 		<key>Headers/OnePayUJSKit.h</key>
@@ -81,77 +81,77 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			H5glCF4Q/Ji6r1h2BzEplxk6COgkEBb/xFyKbhWVVYk=
+			MYDGgwnNv6nRRxlMIpOBno7Y2ZfVErI2mHPQnkTBcJk=
 			</data>
 		</dict>
 		<key>Modules/OnePayUJSKit.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			g/FaGkBzmZE8EzN57iiMx7ITp6goe0eO55xE/5mlYws=
+			NoeT8T+EULKuaLaJUP+kWilD34knq9HpsFb0HKMPyfo=
 			</data>
 		</dict>
 		<key>Modules/OnePayUJSKit.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			xXYkveiqTIvvPxBYAjU7+MPZPpruHxd891LDzujklZo=
+			1JXFjcOZOmMCUHtEN4dwg9SBvVRm01Zn6Mv2hgiNdLI=
 			</data>
 		</dict>
 		<key>Modules/OnePayUJSKit.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			g/FaGkBzmZE8EzN57iiMx7ITp6goe0eO55xE/5mlYws=
+			NoeT8T+EULKuaLaJUP+kWilD34knq9HpsFb0HKMPyfo=
 			</data>
 		</dict>
 		<key>Modules/OnePayUJSKit.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ohAdvNbEpcPgppFKRIrw5MlJt3Z2JifgSrJi3qsPizQ=
+			XNh2bxQ8un01UmwE2P/wqy4jFL9g+EkH+BEDI2crP5I=
 			</data>
 		</dict>
 		<key>Modules/OnePayUJSKit.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			H5glCF4Q/Ji6r1h2BzEplxk6COgkEBb/xFyKbhWVVYk=
+			MYDGgwnNv6nRRxlMIpOBno7Y2ZfVErI2mHPQnkTBcJk=
 			</data>
 		</dict>
 		<key>Modules/OnePayUJSKit.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			yfP03p1QeDrMzkgOjy6YURQ9lxcWYd0OVm6mL0xyR2Q=
+			XprTVQDbTZPwbTY5TkAzWp2OmwLue1kbTvgXAAadSeI=
 			</data>
 		</dict>
 		<key>Modules/OnePayUJSKit.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			hBOnQ1TeuuuvE4Hs4ZjtmIFEd8tyKoWRx6SC53c4uEg=
+			U72XS3kOe6q31AbLLQ8DIEcoE72Cc6A2QP6jncItGPk=
 			</data>
 		</dict>
 		<key>Modules/OnePayUJSKit.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			yfP03p1QeDrMzkgOjy6YURQ9lxcWYd0OVm6mL0xyR2Q=
+			XprTVQDbTZPwbTY5TkAzWp2OmwLue1kbTvgXAAadSeI=
 			</data>
 		</dict>
 		<key>Modules/OnePayUJSKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			4vjwGWeBu+WDYrlbxgobMGgWUtkcQRWe758dYDWmTUw=
+			DFTOVYnhPKGHi5CVOCXNeXdMyPuOntZuU0nkWLQwVzg=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			K4ZcNiWcpOhBwCflnBx5kx1J3NyD4tXrO9DOg2gR91U=
+			Zlb2AQ8nBYAXjcnyvB3x0HGJUniJ9spB7tAy2zs1UTI=
 			</data>
 		</dict>
 	</dict>
